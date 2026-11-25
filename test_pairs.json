@@ -1,0 +1,480 @@
+{
+  "equivalent": [
+    {
+      "a": "2*(x+3)",
+      "b": "2*x+6",
+      "cat": "algebra"
+    },
+    {
+      "a": "x + y",
+      "b": "y + x",
+      "cat": "algebra"
+    },
+    {
+      "a": "x**2 - 1",
+      "b": "(x-1)*(x+1)",
+      "cat": "algebra"
+    },
+    {
+      "a": "(x+1)**2",
+      "b": "x**2 + 2*x + 1",
+      "cat": "algebra"
+    },
+    {
+      "a": "3*(x-2)",
+      "b": "3*x - 6",
+      "cat": "algebra"
+    },
+    {
+      "a": "x*x",
+      "b": "x**2",
+      "cat": "algebra"
+    },
+    {
+      "a": "(a+b)*(a-b)",
+      "b": "a**2 - b**2",
+      "cat": "algebra"
+    },
+    {
+      "a": "2*x + 2*y",
+      "b": "2*(x+y)",
+      "cat": "algebra"
+    },
+    {
+      "a": "x**2 + 5*x + 6",
+      "b": "(x+2)*(x+3)",
+      "cat": "algebra"
+    },
+    {
+      "a": "sin(x)**2 + cos(x)**2",
+      "b": "1",
+      "cat": "trig"
+    },
+    {
+      "a": "sin(2*x)",
+      "b": "2*sin(x)*cos(x)",
+      "cat": "trig"
+    },
+    {
+      "a": "cos(2*x)",
+      "b": "cos(x)**2 - sin(x)**2",
+      "cat": "trig"
+    },
+    {
+      "a": "tan(x)",
+      "b": "sin(x)/cos(x)",
+      "cat": "trig"
+    },
+    {
+      "a": "1/2",
+      "b": "0.5",
+      "cat": "numeric"
+    },
+    {
+      "a": "x/2",
+      "b": "0.5*x",
+      "cat": "numeric"
+    },
+    {
+      "a": "x > 2",
+      "b": "2 < x",
+      "cat": "inequality"
+    },
+    {
+      "a": "x**2 - 5*x + 6 > 0",
+      "b": "(x-2)*(x-3) > 0",
+      "cat": "inequality"
+    },
+    {
+      "a": "2*x + 4 > 0",
+      "b": "x > -2",
+      "cat": "inequality"
+    },
+    {
+      "a": "x >= 0",
+      "b": "0 <= x",
+      "cat": "inequality"
+    },
+    {
+      "a": "3*x - 6 = 0",
+      "b": "x = 2",
+      "cat": "equation"
+    },
+    {
+      "a": "x**2 - 4 = 0",
+      "b": "(x-2)*(x+2) = 0",
+      "cat": "equation"
+    },
+    {
+      "a": "2*x = 4",
+      "b": "x = 2",
+      "cat": "equation"
+    },
+    {
+      "a": "(x**2 - 1)/(x - 1)",
+      "b": "x + 1",
+      "cat": "rational"
+    },
+    {
+      "a": "1/(1/x)",
+      "b": "x",
+      "cat": "rational"
+    },
+    {
+      "a": "2**3",
+      "b": "8",
+      "cat": "numeric"
+    },
+    {
+      "a": "10 % 3",
+      "b": "1",
+      "cat": "numeric"
+    },
+    {
+      "a": "x + 0",
+      "b": "x",
+      "cat": "algebra"
+    },
+    {
+      "a": "x * 1",
+      "b": "x",
+      "cat": "algebra"
+    },
+    {
+      "a": "-(x + y)",
+      "b": "-x - y",
+      "cat": "algebra"
+    },
+    {
+      "a": "x**3 - x",
+      "b": "x*(x-1)*(x+1)",
+      "cat": "algebra"
+    },
+    {
+      "a": "2*x > 4",
+      "b": "x > 2",
+      "cat": "inequality"
+    },
+    {
+      "a": "abs(-3)",
+      "b": "3",
+      "cat": "numeric"
+    },
+    {
+      "a": "max(2, 5)",
+      "b": "5",
+      "cat": "numeric"
+    },
+    {
+      "a": "sqrt(8)",
+      "b": "2*sqrt(2)",
+      "cat": "radical"
+    },
+    {
+      "a": "x**(1/2)",
+      "b": "sqrt(x)",
+      "cat": "radical"
+    }
+  ],
+  "non_equivalent": [
+    {
+      "a": "2*x + 6",
+      "b": "2*x + 7",
+      "cat": "algebra"
+    },
+    {
+      "a": "x**2 - 1",
+      "b": "x**2 + 1",
+      "cat": "algebra"
+    },
+    {
+      "a": "x + y",
+      "b": "x - y",
+      "cat": "algebra"
+    },
+    {
+      "a": "(x+1)**2",
+      "b": "x**2 + 1",
+      "cat": "algebra"
+    },
+    {
+      "a": "3*(x-2)",
+      "b": "3*x + 6",
+      "cat": "algebra"
+    },
+    {
+      "a": "x*x",
+      "b": "2*x",
+      "cat": "algebra"
+    },
+    {
+      "a": "(a+b)*(a-b)",
+      "b": "a**2 + b**2",
+      "cat": "algebra"
+    },
+    {
+      "a": "x**2 + 5*x + 6",
+      "b": "(x+2)*(x+4)",
+      "cat": "algebra"
+    },
+    {
+      "a": "sin(x)**2 + cos(x)**2",
+      "b": "0",
+      "cat": "trig"
+    },
+    {
+      "a": "sin(2*x)",
+      "b": "sin(x)*cos(x)",
+      "cat": "trig"
+    },
+    {
+      "a": "cos(2*x)",
+      "b": "cos(x)**2 + sin(x)**2",
+      "cat": "trig"
+    },
+    {
+      "a": "tan(x)",
+      "b": "cos(x)/sin(x)",
+      "cat": "trig"
+    },
+    {
+      "a": "log(x*y)",
+      "b": "log(x)*log(y)",
+      "cat": "log"
+    },
+    {
+      "a": "sqrt(8)",
+      "b": "4*sqrt(2)",
+      "cat": "radical"
+    },
+    {
+      "a": "1/2",
+      "b": "0.4",
+      "cat": "numeric"
+    },
+    {
+      "a": "x/2",
+      "b": "2*x",
+      "cat": "numeric"
+    },
+    {
+      "a": "x > 2",
+      "b": "x < 2",
+      "cat": "inequality"
+    },
+    {
+      "a": "x**2 - 5*x + 6 > 0",
+      "b": "(x-2)*(x-3) < 0",
+      "cat": "inequality"
+    },
+    {
+      "a": "2*x + 4 > 0",
+      "b": "x < -2",
+      "cat": "inequality"
+    },
+    {
+      "a": "x**2 <= 4",
+      "b": "-2 < x < 2",
+      "cat": "inequality"
+    },
+    {
+      "a": "x >= 0",
+      "b": "x > 0",
+      "cat": "inequality"
+    },
+    {
+      "a": "3*x - 6 = 0",
+      "b": "x = 3",
+      "cat": "equation"
+    },
+    {
+      "a": "x**2 - 4 = 0",
+      "b": "(x-2)*(x-3) = 0",
+      "cat": "equation"
+    },
+    {
+      "a": "2*x = 4",
+      "b": "x = 4",
+      "cat": "equation"
+    },
+    {
+      "a": "(x**2 - 1)/(x - 1)",
+      "b": "x - 1",
+      "cat": "rational"
+    },
+    {
+      "a": "1/(1/x)",
+      "b": "1/x",
+      "cat": "rational"
+    },
+    {
+      "a": "x**(1/2)",
+      "b": "x**2",
+      "cat": "radical"
+    },
+    {
+      "a": "2**3",
+      "b": "6",
+      "cat": "numeric"
+    },
+    {
+      "a": "10 % 3",
+      "b": "3",
+      "cat": "numeric"
+    },
+    {
+      "a": "x + 0",
+      "b": "x + 1",
+      "cat": "algebra"
+    },
+    {
+      "a": "x * 1",
+      "b": "x + 1",
+      "cat": "algebra"
+    },
+    {
+      "a": "-(x + y)",
+      "b": "-x + y",
+      "cat": "algebra"
+    },
+    {
+      "a": "x**3 - x",
+      "b": "x*(x-1)*(x+1) + 1",
+      "cat": "algebra"
+    },
+    {
+      "a": "2*x > 4",
+      "b": "x < 2",
+      "cat": "inequality"
+    },
+    {
+      "a": "x > 1 and x < 5",
+      "b": "1 < x < 4",
+      "cat": "inequality"
+    },
+    {
+      "a": "abs(-3)",
+      "b": "-3",
+      "cat": "numeric"
+    },
+    {
+      "a": "max(2, 5)",
+      "b": "2",
+      "cat": "numeric"
+    },
+    {
+      "a": "exp(x)",
+      "b": "x**2",
+      "cat": "transcendental"
+    },
+    {
+      "a": "sqrt(x)",
+      "b": "x/2",
+      "cat": "radical"
+    },
+    {
+      "a": "sin(x)",
+      "b": "x",
+      "cat": "trig"
+    }
+  ],
+  "malformed": [
+    {
+      "a": "2*x +",
+      "cat": "incomplete"
+    },
+    {
+      "a": "x**",
+      "cat": "incomplete"
+    },
+    {
+      "a": "((x+1)",
+      "cat": "unbalanced paren"
+    },
+    {
+      "a": "x + * 2",
+      "cat": "invalid operator"
+    },
+    {
+      "a": "",
+      "cat": "empty"
+    },
+    {
+      "a": "   ",
+      "cat": "whitespace only"
+    },
+    {
+      "a": "sqrt(",
+      "cat": "incomplete call"
+    },
+    {
+      "a": "sin(x",
+      "cat": "unbalanced paren"
+    },
+    {
+      "a": "2..3",
+      "cat": "malformed number"
+    },
+    {
+      "a": "x = = 2",
+      "cat": "invalid operator"
+    },
+    {
+      "a": "++x",
+      "cat": "invalid operator"
+    },
+    {
+      "a": "x^^2",
+      "cat": "invalid operator"
+    },
+    {
+      "a": "log()",
+      "cat": "missing argument"
+    },
+    {
+      "a": "3 +",
+      "cat": "incomplete"
+    },
+    {
+      "a": "* 2",
+      "cat": "missing operand"
+    },
+    {
+      "a": "x / / 2",
+      "cat": "invalid operator"
+    },
+    {
+      "a": "sqrt(-",
+      "cat": "incomplete call"
+    },
+    {
+      "a": "2 x",
+      "cat": "implicit multiplication"
+    },
+    {
+      "a": "x2",
+      "cat": "implicit multiplication"
+    },
+    {
+      "a": "2(x+3)",
+      "cat": "implicit multiplication"
+    }
+  ],
+  "assumption_dependent": [
+    {
+      "a": "log(x*y)",
+      "b": "log(x) + log(y)",
+      "cat": "log"
+    },
+    {
+      "a": "exp(log(x))",
+      "b": "x",
+      "cat": "log"
+    },
+    {
+      "a": "sqrt(x**2)",
+      "b": "Abs(x)",
+      "cat": "radical"
+    }
+  ]
+}
